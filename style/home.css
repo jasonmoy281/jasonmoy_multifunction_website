@@ -1,9 +1,10 @@
 * {
+  margin-block: 0;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Quicksand", sans-serif;
   overflow-x: hidden;
 }
 
@@ -89,10 +90,17 @@ header {
   color: white;
 }
 
-.world-time .clock-1 h2,
-.world-time .clock-2 h2,
-.world-time .clock-3 h2 {
+.world-time .clock-1 h2:nth-child(1),
+.world-time .clock-2 h2:nth-child(1),
+.world-time .clock-3 h2:nth-child(1) {
   font-size: 1rem;
+  font-weight: 150;
+}
+
+.world-time .clock-1 h2:nth-child(2),
+.world-time .clock-2 h2:nth-child(2),
+.world-time .clock-3 h2:nth-child(2) {
+  font-size: 0.8rem;
   font-weight: 300;
 }
 
@@ -123,6 +131,6 @@ h1 {
   margin: auto;
   font-size: 8rem;
   color: white;
-  font-weight: 200;
+  font-weight: 500;
 }
 /*# sourceMappingURL=home.css.map */
